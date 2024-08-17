@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 16 22:51:27 IST 2024","Fri Aug 16 22:52:01 IST 2024","34357","Default Suite","SeleniumPracticeA2BX","com.thetestingAcademy.SeleniumPracticePrograms.PracticeProg_1","com.thetestingAcademy.SeleniumPracticePrograms.PracticeProg_1","vwoLogin","vwoLogin",""
+"passed","Sat Aug 17 22:51:17 IST 2024","Sat Aug 17 22:53:13 IST 2024","115813","Default Suite","SeleniumPracticeA2BX","com.thetestingAcademy.SeleniumPracticePrograms.PracticeProg_8","com.thetestingAcademy.SeleniumPracticePrograms.PracticeProg_8","testVWOLogin","testVWOLogin",""
