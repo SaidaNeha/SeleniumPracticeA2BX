@@ -1,2 +1,6 @@
-package com.thetestingAcademy.SeleniumPracticePrograms;public class PracticeProg_9 {
+package com.thetestingAcademy.SeleniumPracticePrograms;
+
+public class PracticeProg_9
+{
+
 }
