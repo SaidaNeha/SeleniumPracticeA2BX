@@ -1,4 +1,4 @@
-package com.thetestingAcademy.SeleniumPracticePrograms;
+package com.thetestingAcademy.SeleniumPracticeProgram_11Jul24;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +8,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class PracticeProg_2
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         WebDriver driver=new ChromeDriver();
         WebDriver driver1= new EdgeDriver();
         WebDriver driver2=new FirefoxDriver();
@@ -16,4 +17,5 @@ public class PracticeProg_2
 
 
     }
+
 }

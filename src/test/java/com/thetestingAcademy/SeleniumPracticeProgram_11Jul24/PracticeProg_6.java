@@ -1,6 +1,5 @@
-package com.thetestingAcademy.SeleniumPracticePrograms;
+package com.thetestingAcademy.SeleniumPracticeProgram_11Jul24;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class PracticeProg_6
