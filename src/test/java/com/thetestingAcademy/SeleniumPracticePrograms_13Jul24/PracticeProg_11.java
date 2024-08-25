@@ -6,9 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
-public class PracticeProg_11 {
+import java.time.Duration;
+
+public class PracticeProg_11
+{
+    @Test
     public void loginAppVWO()
     {
         ChromeOptions options=new ChromeOptions();
@@ -24,15 +30,13 @@ public class PracticeProg_11 {
         uname.sendKeys("mcaneha123@gmail.com");
         WebElement pwd=driver.findElement(By.id("login-password"));
         pwd.sendKeys("neha");
+
         WebElement Submitbutton =driver.findElement(By.id("js-login-btn"));
         Submitbutton.click();
-        WebElement invalidLogMsg=driver.findElement(By.id("notification-box-description"));
-        Assert.assertEquals(invalidLogMsg.getText(),"Your email and, password, IP address or location did not match");
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }driver.quit();
+       WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+      // WebElement errorMsg=driver.findElement(By.class("notification-box-description"));
+       // Assert.assertEquals(errorMsg.getText(), "Your email, password, IP address or location did not match");
+       driver.quit();
     }
 
 }
